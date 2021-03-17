@@ -1,0 +1,53 @@
+//冒泡排序（升序）
+//#include <stdio.h>
+//int main()
+//{ 
+//  int a[10],i,j,t;
+//  printf("请输入10个数：\n");
+//  for(i=0;i<10;i++)
+//  {scanf("%d",&a[i]);
+//  }
+//
+//   printf("\n");
+//   for(i=0;i<9;i++)
+//   {  for(j=0;j<9-i;j++)
+//      { if(a[j]>a[j+1])
+//         {t=a[j];
+//         a[j]=a[j+1];
+//         a[j+1]=t;
+//        }
+//      }
+//   }
+//   for(j=0;j<10;j++)
+//	   printf("%d ",a[j]);
+//  
+//return 0;
+//}
+//排序升级版
+#include <stdio.h>
+#define n 10
+int main()
+{ 
+  int a[10],i,j,t;
+  int sign =0;
+  printf("请输入10个数：\n");
+  for(i=0;i<n;i++)
+  {scanf("%d",&a[i]);
+  }
+
+   printf("\n");
+   for(i=0;i<n-1;i++)
+   {  for(j=0;j<n-1-i;j++)
+      { if(a[sign]<a[j])
+         { sign = j;
+          }
+      }
+      t=a[j];
+	  a[j]=a[sign];
+	  a[sign]=t;
+   }
+   for(j=0;j<n;j++)
+	   printf("%d ",a[j]);
+  
+return 0;
+}
