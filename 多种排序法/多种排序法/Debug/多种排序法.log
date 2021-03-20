@@ -1,0 +1,14 @@
+﻿生成启动时间为 2021/3/20 22:49:08。
+     1>项目“D:\c语言\多种排序法\多种排序法\多种排序法.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\多种排序法.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Visual c   2010 Express\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1.cpp
+         1.cpp
+     1>d:\c语言\多种排序法\多种排序法\1.cpp(144): warning C4101: “k”: 未引用的局部变量
+     1>d:\c语言\多种排序法\多种排序法\1.cpp(164): error C4716: “Shell_Sort”: 必须返回一个值
+     1>已完成生成项目“D:\c语言\多种排序法\多种排序法\多种排序法.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.12
